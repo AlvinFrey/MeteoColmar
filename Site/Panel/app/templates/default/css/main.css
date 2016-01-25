@@ -1,0 +1,270 @@
+
+/* CSS écrit par Alvin FREY en utilisant le framework CSS Materialist */
+
+body{overflow-x: hidden;}
+
+a.brand-logo{padding-left: 15px;}
+
+p{font-size: 14px;}
+
+textarea#message{height: 95px;}
+
+.btn:hover{background-color: #244D56;}
+
+.nav-wrapper{background-color: #336e7b;}
+
+.container{margin-top: 35px;}
+
+.vertical-align{vertical-align: middle;}
+
+.padding-left{padding-left: 30px;}
+
+.inline-block{display: inline-block;}
+
+.min{color: #446CB3;}
+
+.max{color: #D35400;}
+
+#other-dropdown{margin-top: 63px;}
+
+b{
+	color: #455A64;
+    font-weight: 700;
+}
+
+.title{
+	font-size: 17px;
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+.btn{
+	background-color: #336e7b;
+	margin-right: 25px;
+	width: 207.828px;
+}
+
+.btn-container{
+	width: 775px;
+	padding-left: 30px;
+}
+
+.inline-block-padding{
+	display: inline-block;
+	padding-left: 16px;
+}
+
+.adsbIframe{
+	height: 500px; 
+	width: 100%;
+}
+
+progress {
+	background-color: #DADFE1;
+	border-radius: 2px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+	width: 450px;
+	height: 15px;
+	vertical-align: middle;
+	border: none;
+}
+
+progress::-webkit-progress-bar {
+	background-color: #DADFE1;
+	border-radius: 2px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+	width: 450px;
+	height: 15px;
+	vertical-align: middle;
+}
+
+progress::-webkit-progress-value {
+	background-color: #336e7b;
+	border-radius: 2px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+	height: 15px;
+}
+
+progress::-moz-progress-bar {
+	background-color: #336e7b;
+	border-radius: 2px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+	width: 450px;
+	height: 15px;
+	vertical-align: middle;
+}
+
+.progress-label {
+	padding-left: 15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.alert {
+  	padding: 15px;
+  	margin-bottom: 20px;
+  	border: 1px solid transparent;
+  	border-radius: 4px;
+}
+.alert h4 {
+  	margin-top: 0;
+  	color: inherit;
+}
+.alert .alert-link {
+  	font-weight: bold;
+}
+.alert > p,
+.alert > ul {
+  	margin-bottom: 0;
+}
+.alert > p + p {
+  	margin-top: 5px;
+}
+.alert-success {
+  	color: #3c763d;
+  	background-color: #dff0d8;
+  	border-color: #d6e9c6;
+}
+.alert-success hr {
+  	border-top-color: #c9e2b3;
+}
+.alert-success .alert-link {
+  	color: #2b542c;
+}
+.alert-info {
+  	color: #31708f;
+  	background-color: #d9edf7;
+  	border-color: #bce8f1;
+}
+.alert-info hr {
+  	border-top-color: #a6e1ec;
+}	
+.alert-info .alert-link {
+  	color: #245269;
+}
+.alert-warning {
+  	color: #8a6d3b;
+  	background-color: #fcf8e3;
+  	border-color: #faebcc;
+}
+.alert-warning hr {
+  	border-top-color: #f7e1b5;
+}
+.alert-warning .alert-link {
+  	color: #66512c;
+}
+.alert-medium {
+  	color: #a94442;
+  	background-color: #fff3e0;
+  	border-color: #ebccd1;
+}
+.alert-medium hr {
+  	border-top-color: #e4b9c0;
+}
+.alert-medium b{
+	color: #a94442;
+}
+.alert-medium .alert-link {
+  	color: #843534;
+}
+.alert-danger {
+  	color: #a94442;
+  	background-color: #f2dede;
+  	border-color: #ebccd1;
+}
+.alert-danger hr {
+  	border-top-color: #e4b9c0;
+}
+.alert-danger b{
+	color: #a94442;
+}
+.alert-danger .alert-link {
+  	color: #843534;
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding-left: 15px;
+}
+
+ul.share-buttons li{
+  display: inline;
+  margin-right: 15px;
+}
+
+iframe{max-width: 100%;}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	.btn-container{
+		width: 100%;
+		padding-left: 30px;
+	}
+
+	progress {
+		background-color: #DADFE1;
+		border-radius: 2px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+		width: 200px;
+		height: 15px;
+		vertical-align: middle;
+		border: none;
+	}
+
+	progress::-webkit-progress-bar {
+		background-color: #DADFE1;
+		border-radius: 2px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+		width: 200px;
+		height: 15px;
+		vertical-align: middle;
+	}
+
+	progress::-webkit-progress-value {
+		background-color: #336e7b;
+		border-radius: 2px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+		height: 15px;
+	}
+
+	progress::-moz-progress-bar {
+		background-color: #336e7b;
+		border-radius: 2px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+		width: 200px;
+		height: 15px;
+		vertical-align: middle;
+	}
+
+	.progress-label {
+		padding-left: 15px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.btn{margin-bottom: 15px;}
+
+	img.adaptive{width: 100%;}
+	img.adaptive-forecast{
+		width: 100%;
+		height:150px;
+	}
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+	.btn{margin-bottom: 15px;}
+	.btn-container{
+		width: 100%;
+		padding-left: 30px;
+	}
+
+}
+
+@media only screen and (min-width : 1824px) {
+
+	p{font-size: 20px;}
+	.title{font-size: 23px;}
+
+}
